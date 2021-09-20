@@ -1,0 +1,71 @@
+- Boiteperso
+
+Réalisation d'une boite en ligne de vente de produits personnalisés. Reprise du concept Bonbonprint
+avec un élargissement de la gamme de produit. Réalisation de gabarit de personnalisation en
+fonction de la boite choisit. Reprise des tunnels panier et paiement.
+
+
+- Emailing
+
+Montage de différentes campagnes d'emailing pour OTC Concept à partir de maquette fournie par
+l'équipe graphisme. Montage en MJML et planification étalée.
+
+
+- Module DoliKingAvis
+
+Module de synchronisation en Dolibarr et KingAvis. L'objectif est d'automatiser la demande d'avis
+client depuis la facturation Dolibarr.
+
+
+- Module TheliaKingAvis
+
+Module de synchronisation entre Thelia et KingAvis. L'objectif est d'automatiser la demande d'avis
+client à la suite d'une commande sur Thelia.
+
+
+- Module JDF generator
+
+Générateur de fichier JDF comptabible Caldera à partir de données de commande et d'un fichier d'impression
+Technologie : NodeJS, JDF, Dolibarr
+Projet OTC - Code non ouvert à la diffusion
+
+
+- Module Secteur commerciaux TM
+
+Module permettant d'obtenir la couverture sectorielle d'un commercial. Affectation d'un secteur géographique
+à un commercial pour obtenir des statistiques de couverture de ce secteur
+
+
+- Silat Ultime Syl
+Blog personnel Wordpress pour la présentation de l'activité d'une association sportive
+de self defense et pencak silat
+WordPress
+
+
+- CPAAC
+Gestionnaire privé de collection de cartes postales basé sur Wordpress
+
+
+- Inscription IfMK
+Script PHP pour la gestion de l'inscription des étudiants à l'IFMK. Formulaire de renseignement,
+soumission de fichier et interface récapitulative pour l'équipe administative.
+
+- 3THIERS
+Boutique en ligne pour la vente de couteau avec module de personnalisation pour la
+gravure de la lame et dispatch des commandes vers les différents fournisseurs.
+Thelia 2
+
+- Synelience.com
+Réalisation d'un site full HTML/CSS multilingue pour la présentation de l'activité
+de la société
+
+- BonbonFrance
+Réalisation d'une boutique en ligne sous WooCommerce.
+Synchronisation des ventes avec logiciel de gestion
+
+- Landing Page : Volcanic - Terra'lux
+Réalisation de différente page d'attente en attendant la mise en ligne des sites finaux
+HTML / CSS
+
+
+- Script Compta
