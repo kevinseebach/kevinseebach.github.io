@@ -1,9 +1,3 @@
-- Boiteperso
-
-Réalisation d'une boite en ligne de vente de produits personnalisés. Reprise du concept Bonbonprint
-avec un élargissement de la gamme de produit. Réalisation de gabarit de personnalisation en
-fonction de la boite choisit. Reprise des tunnels panier et paiement.
-ANGULARJS PHP SLIMPHP HTML CSS BOOTSTRAP
 
 - Emailing
 
@@ -18,17 +12,8 @@ Module de synchronisation en Dolibarr et KingAvis. L'objectif est d'automatiser 
 client depuis la facturation Dolibarr.
 PHP DOLIBARR AVIS CLIENT AUTOMATISATION
 
-- Module TheliaKingAvis
-
-Module de synchronisation entre Thelia et KingAvis. L'objectif est d'automatiser la demande d'avis
-client à la suite d'une commande sur Thelia.
-PHP THELIA SYMFONY AVIS CLIENT AUTOMATISATION
 
 
-- Module Secteur commerciaux TM
-
-Module permettant d'obtenir la couverture sectorielle d'un commercial. Affectation d'un secteur géographique
-à un commercial pour obtenir des statistiques de couverture de ce secteur
 
 
 
