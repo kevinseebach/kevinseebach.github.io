@@ -1058,8 +1058,6 @@ svg {
 body {
 	font-size: 1em;
 	font-size: var(--text-base-size, 1em);
-	font-family: 'Fira Sans', sans-serif;
-	font-family: var(--font-primary, sans-serif);
 	color: hsl(240, 4%, 20%);
 	color: var(--color-contrast-high, #313135)
 }
@@ -3805,8 +3803,6 @@ body {
 .js .cd-h-timeline__event-title {
 	color: hsl(0, 0%, 22%);
 	color: var(--cd-color-1);
-	font-family: 'Playfair Display', serif;
-	font-family: var(--font-secondary);
 	font-weight: 700;
 	font-size: 2.48832em;
 	font-size: var(--text-xxxl)

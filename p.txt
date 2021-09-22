@@ -1,21 +1,9 @@
+- KiwiLabel
 
-- Emailing
+Implémentation sous forme de module d'un générateur d'étiquettes postales à partir
+de la librairie KiwiLabel. L'objectif est de permettre la génération en masse d'
+autocollant d'adresse client selon différents formats de planche d'étiquettes (une liste
+est fournit par défaut mais l'ajout est possible manuellement)
 
-Montage de différentes campagnes d'emailing pour OTC Concept à partir de maquette fournie par
-l'équipe graphisme. Montage en MJML et planification étalée.
-
-MJML
-
-- Module DoliKingAvis
-
-Module de synchronisation en Dolibarr et KingAvis. L'objectif est d'automatiser la demande d'avis
-client depuis la facturation Dolibarr.
-PHP DOLIBARR AVIS CLIENT AUTOMATISATION
-
-
-
-
-
-
-
-- Script Compta
+Lien vers github
+Projet personnel
