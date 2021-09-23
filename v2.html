@@ -32,7 +32,6 @@
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#top">Accueil</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Profil</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Expériences</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#formation">Formations</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
               </ul>
             </div>
@@ -50,6 +49,8 @@
                 <!-- <div class="cc-profile-image"><a href="#"><img src="img/profile.jpeg" alt="Image"/></a></div> -->
                 <div class="h2 title" style="font-size:50px;">Kevin SEEBACH</div>
                 <p class="category text-white" style="font-size:30px;margin:auto;">Développeur web FullStack</p>
+                <a href="#about" style="color:#FFF;text-decoration:none;margin-top:50px;display:block;"><i class="far fa-caret-square-down fa-4x"></i></a>
+                </a>
                 <!-- <a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Mon CV en PDF</a> -->
               </div>
             </div>
@@ -65,13 +66,22 @@
       </div>
     </div>
     <div class="container" >
-      <section class="row mt-5" id="about">
+
+      <section class="mt-5" id="about">
+        <h3 class="heading-1">Profil</h3>
+        <div class="divider-1"> <span></span></div>
+        <div class="row">
+
+
         <div class="col-xs-12 col-md-6 col-md-pull-6 text-center" style="padding:20px;">
           <img src="https://via.placeholder.com/500" class="img-fluid" alt="" width="300px">
+          <div class="col-12 text-center mt-5">
+              <a href="#" style="border: 2px solid #378C3F;background: #FFF;padding: 10px 25px;text-transform: uppercase;text-decoration:none;">Télécharger mon CV</a>
+          </div>
         </div>
         <div class="col-xs-12 col-md-6">
           <div class="card-body">
-            <div class="h4 mt-0 title">Mon profil</div>
+            <!-- <div class="h4 mt-0 title">Mon profil</div> -->
             <h5>Développeur web fullstack</h5>
             <p class="text-justify">
               Développeur web basé dans la région de Clermont-Ferrand, spécialisé dans le devéloppement de solution web autour de l'ecommerce et des solutions
@@ -100,12 +110,12 @@
           </p>
       </div>
       </div>
-      <div class="col-12 text-center mt-5">
-          <a href="#" style="border: 2px solid #378C3F;background: #FFF;padding: 10px 25px;text-transform: uppercase;text-decoration:none;">Télécharger mon CV</a>
       </div>
     </section>
-    <section class="cd-h-timeline js-cd-h-timeline margin-bottom-md mt-5">
-      <div class="h4 mt-0 title">Formations et expériences</div>
+    <section class="cd-h-timeline js-cd-h-timeline margin-bottom-md mt-5" id='experience'>
+      <h3 class="heading-1">Formation et expériences</h3>
+      <div class="divider-1"> <span></span></div>
+
       <div class="cd-h-timeline__container container">
         <div class="cd-h-timeline__dates">
           <div class="cd-h-timeline__line">
@@ -278,8 +288,9 @@
     <script src="assets/js/main.js"></script>
 
 
-<section class="row">
-    <div class="h4 mt-0 title">Portfolio</div>
+<section id="portfolio">
+  <h3 class="heading-1">Portfolio</h3>
+  <div class="divider-1"> <span></span></div>
 
     <div class="row row-eq-height">
       <div class="rowGrid">
@@ -439,14 +450,14 @@
                 </button>
 
               </div>
-              <img src="https://via.placeholder.com/380x250" style="width:100%">
+              <img src="img/tpc.jpg" style="width:100%">
             </div>
   </div>
 
 
 <!-- Modal -->
   <div class="modal fade" id="modalBBP" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Site Ecommerce Bonbonprint</h5>
@@ -506,9 +517,10 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
+
   <div class="modal fade" id="modalBP" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Site Ecommerce Boiteperso</h5>
@@ -569,10 +581,10 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
 
   <div class="modal fade" id="modalBBF" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Site Ecommerce Bonbonfrance</h5>
@@ -630,10 +642,10 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
 
   <div class="modal fade" id="modal3Thiers" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Site Ecommerce 3Thiers</h5>
@@ -693,10 +705,10 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
 
   <div class="modal fade" id="modalAtt" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Pages d'attente</h5>
@@ -747,9 +759,10 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
+
   <div class="modal fade" id="modalMail" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Pages d'attente</h5>
@@ -806,10 +819,10 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
 
   <div class="modal fade" id="modalSyn" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Site vitrine Synelience</h5>
@@ -861,11 +874,11 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
 
 
   <div class="modal fade" id="modalIFMK" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Inscriptions IFMK</h5>
@@ -901,10 +914,10 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
 
   <div class="modal fade" id="modalSilat" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Silat Ultime Syl</h5>
@@ -959,11 +972,11 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
 
 
   <div class="modal fade" id="modalJDF" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Générateur de fichier JDF</h5>
@@ -993,11 +1006,11 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
 
 
   <div class="modal fade" id="modalCPAAC" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Plateforme CPAAC</h5>
@@ -1049,10 +1062,10 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
 
   <div class="modal fade" id="modalTMCM" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Module ToManage - Secteur commercial</h5>
@@ -1109,7 +1122,7 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
 
   <div class="modal fade" id="modalTheliaKing" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -1264,10 +1277,11 @@
     </div>
   </div>
   </div>
+
+    </div>    </div>
+
 </section>
-
-    </div>
-
+</div>
     <div class="section-full-width">
           <div class="bottom section-padding">
             <div class="container">
@@ -1284,42 +1298,83 @@
   </body>
   <script type="text/javascript">
     var myNav = document.getElementById('mynav');
-  window.onscroll = function () {
-    "use strict";
-    if (document.body.scrollTop >= document.getElementById("about").getBoundingClientRect().top || document.documentElement.scrollTop >=  document.getElementById("about").getBoundingClientRect().top ) {
-        myNav.classList.add("nav-colored");
-        myNav.classList.remove("navbar-transparent");
-    }
-    else {
-        myNav.classList.add("navbar-transparent");
-        myNav.classList.remove("nav-colored");
-    }
-  };
+    window.onscroll = function () {
+      "use strict";
+      if (document.body.scrollTop >= document.getElementById("about").getBoundingClientRect().top || document.documentElement.scrollTop >=  document.getElementById("about").getBoundingClientRect().top ) {
+          myNav.classList.add("nav-colored");
+          myNav.classList.remove("navbar-transparent");
+        }
+        else {
+          myNav.classList.add("navbar-transparent");
+          myNav.classList.remove("nav-colored");
+        }
+    };
 
   </script>
 
-<style media="screen">
-  .modal .carousel-item{
-    height:250px;
-    background: transparent;
+  <style media="screen">
+    .modal .carousel-item{
+      height:250px;
+      background: transparent;
+    }
+
+    .modal .carousel-item img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .modal .carousel .carousel-inner {
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    .moduleDev{
+      border:5px solid  #a3b18a !important;
+    }
+    .websiteDev{
+      border:5px solid #a3b18a !important;
+    }
+
+
+    .page-content section{
+      margin-top: 50px;
+      margin-bottom:50px;
+    }
+
+    .heading-1 {
+		font-size: 1.5em;
+		letter-spacing: 0.08em;
+		color: #344e41;
+		text-transform: uppercase;
+    margin-bottom:0px;
   }
 
-  .modal .carousel-item img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  .divider-1 {
+  		border-bottom: 1px solid #FFF;
+  		background-color: #a3b18a;
+  		height: 3px;
+  		/* margin: 0.5em 0px 1.5em; */
+      margin-bottom: 50px;
   }
 
-  .modal .carousel .carousel-inner {
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  .divider-1 span {
+  		display: block;
+  		width: 350px;
+  		height: 3px;
+  		background-color: #344e41;
   }
 
-  .moduleDev{
-    border:5px solid #A7CFE9 !important;
+  .cd-h-timeline__date--older-event{
+    color: var(--cd-color-2) !important;
   }
-  .websiteDev{
-    border:5px solid green !important;
+  .cd-h-timeline__date--selected{
+    color: #588157ff !important;
+
   }
-</style>
+
+  .navbar a{
+    text-decoration: none;
+  }
+  </style>
   </html>
